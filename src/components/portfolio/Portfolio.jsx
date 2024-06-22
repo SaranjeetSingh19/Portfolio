@@ -24,13 +24,13 @@ const items = [
     desc: "Developed YouDupe, a YouTube clone, using React.js and Redux for state management, with Tailwind CSS for styling. Integrated YouTube API and YouTube Search API for video data. Implemented debouncing for optimized search functionality and added a live chat feature for real-time interaction.",
     link: "https://youdupe.vercel.app/",
   },
-  //   {
-  //     id: 4,
-  //     title: "REJOUICE",
-  //     img: "",
-  //     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-  //      link: "https://youdupe.vercel.app/"
-  // },
+    {
+      id: 4,
+      title: "Cookie Shookie",
+      img: "/cooking.jpg",
+      desc: "Developed a responsive web application using React and Daisy UI for recipe discovery. Users access detailed nutritional information and preparation specifics by selecting recipes, with seamless integration to relevant YouTube tutorials.",
+       link: "https://cookie-shookie.vercel.app/"
+  },
 ];
 
 const Single = ({ item }) => {
